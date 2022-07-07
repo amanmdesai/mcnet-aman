@@ -1,0 +1,17 @@
+generate p p > e+ e-
+output run1
+launch
+
+generate p p > z, z > e+ e-
+output run2
+launch
+
+generate p p > e+ e- $ z
+output run3
+launch
+set sde_strategy = 1
+
+
+generate p p > e+ e- / z
+output run4
+launch

@@ -1,0 +1,41 @@
+generate p p > t t~ 
+output run1
+launch
+analysis=OFF
+set nevents=100
+
+
+
+generate p p > t t~ QCD=0
+output run2
+launch
+analysis=OFF
+set nevents=100
+
+
+generate p p > t t~ QED=0
+output run3
+launch
+analysis=OFF
+set nevents=100
+
+
+generate p p > t t~ QED<=2
+output run4
+launch
+analysis=OFF
+set nevents=100
+
+generate p p > t t~ QED=2
+output run5
+launch
+analysis=OFF
+set nevents=100
+
+
+generate p p > t t~ QCD^2==2
+output run6
+launch
+analysis=OFF
+set nevents=100
+
